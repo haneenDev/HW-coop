@@ -1,0 +1,48 @@
+# ملفات Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ملفات البيئة الافتراضية
+venv/
+env/
+ENV/
+.venv
+
+# ملفات البيئة - مهم جداً!
+.env
+.env.local
+.env.*.local
+*.env
+
+# قواعد البيانات
+*.db
+*.sqlite
+*.sqlite3
+
+# مفاتيح API وملفات الأمان
+secrets.json
+api_keys.txt
+credentials.json
+*.pem
+*.key
+
+# ملفات IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+
+# ملفات السجلات
+*.log
+logs/
+
+# التبعيات
+node_modules/

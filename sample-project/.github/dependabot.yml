@@ -1,0 +1,36 @@
+# ملف إعدادات Dependabot
+# يراقب التبعيات ويُحدّثها تلقائياً
+
+version: 2
+updates:
+  # مراقبة تبعيات Python
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    # إنشاء Pull Requests للتحديثات الأمنية فقط
+    open-pull-requests-limit: 10
+    # تسميات للتنظيم
+    labels:
+      - "dependencies"
+      - "security"
+    # تجميع التحديثات الثانوية
+    groups:
+      minor-updates:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+    
+  # يمكن إضافة مراقبة لـ GitHub Actions أيضاً
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    labels:
+      - "github-actions"
+      - "dependencies"

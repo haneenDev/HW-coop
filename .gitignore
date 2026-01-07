@@ -1,0 +1,11 @@
+# ملفات خاصة بالمدرسة - لا ترفع على GitHub
+GRADING-GUIDE.md
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+
+# ملفات Python
+__pycache__/
+*.pyc
+*.db
