@@ -102,12 +102,6 @@
 - [GitHub Security Best Practices](https://docs.github.com/en/code-security)
 - [Python Security Guidelines](https://python.readthedocs.io/en/stable/library/security_warnings.html)
 
-## 🔄 التحديثات
-
-آخر تحديث: 2026-01-07
-
-سيتم تحديث هذه السياسة بانتظام. يرجى مراجعتها دورياً.
-
 ---
 
 **شكراً لمساعدتك في الحفاظ على أمان المشروع! 🛡️**
