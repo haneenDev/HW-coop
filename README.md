@@ -114,21 +114,6 @@
 
 **📨 haneen-97@outlook.com**
 
-موضوع الرسالة: `GitHub Security Assignment - [اسمك]`
-
-**مثال:**
-```
-إلى: haneen-97@outlook.com
-الموضوع: GitHub Security Assignment - Sara Ahmed
-
-السلام عليكم،
-
-رابط الريبو الخاص بي:
-https://github.com/sara-ahmed/secure-project-sara
-
-شكراً
-سارة أحمد
-```
 
 ### 💡 ملاحظة مهمة:
 
